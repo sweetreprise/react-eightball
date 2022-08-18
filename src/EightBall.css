@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.eightball {
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    cursor:pointer;
+}
+
+.green {
+    background-color: green;
+}
+
+.goldenrod {
+    background-color: goldenrod;
+}
+
+.red {
+    background-color:red;
+}
+
+.text {
+    display:inline-block;
+    position: relative;
+    top: 4rem;
+}
+
+.reset {
+    position:absolute;
+    top: 30rem;
+    left: 30rem;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.reset:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
