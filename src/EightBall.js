@@ -26,9 +26,9 @@ const answers = [
   const EightBall = ({answers}) => {
     const [text, setText] = useState('Think of a Question!');
     const [color, setColor] = useState('black');
-    let answer = Math.floor(Math.random() * answers.length);
 
     function handleClick() {
+        let answer = Math.floor(Math.random() * answers.length);
         setText(answers[answer].msg);
         setColor(answers[answer].color);
     }
